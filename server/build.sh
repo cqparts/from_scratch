@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build . -t zignig/cparts-server
+docker build . -t zignig/cqparts-server
