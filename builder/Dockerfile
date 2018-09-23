@@ -7,7 +7,7 @@ ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV CQ_HOME=/opt/cadquery
 
 RUN apt-get update --fix-missing && apt-get install -y wget bzip2 ca-certificates \
-    build-essential libfreetype6-dev libglu1-mesa-dev git cmake curl
+    build-essential libfreetype6-dev libglu1-mesa-dev git cmake curl swig python3-dev
 
 RUN mkdir /opt/builder
 WORKDIR /opt/builder
