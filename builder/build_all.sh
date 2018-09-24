@@ -12,7 +12,7 @@ ldconfig
 
 mkdir /opt/output/pythonocc
 cd /opt/output/pythonocc
-cmake /opt/builder/pythonocc
+cmake /opt/builder/pythonocc-core
 make all
 make install 
 
