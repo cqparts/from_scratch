@@ -11,4 +11,5 @@ RUN apt-get update --fix-missing && apt-get install -y wget bzip2 ca-certificate
 
 # install latest cadquery and cqparts from source
 # copy oce and pythonocc-core into place from data 
-
+COPY data/artifact/usr/local/lib /usr/local/lib/
+COPY data/artifact/usr/lib/python3/dist-packages /usr/lib/python3.5/
