@@ -21,3 +21,12 @@ this will take some hours to build
 4. ./make_server.sh
 
 this build the debian image and installs OCC and pythonocc 
+
+run with 
+
+docker -it zignig/pythonocc
+
+# python3
+>> import OCC
+>>
+
