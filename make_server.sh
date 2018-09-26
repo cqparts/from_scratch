@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build  -t zignig/cqparts-server . 
+docker build  -t zignig/pythonocc . 
